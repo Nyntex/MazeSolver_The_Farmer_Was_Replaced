@@ -1,6 +1,6 @@
 # Maze Solver
 This is my solution of a Maze Solver for the game "The Farmer Was Replaced()" (https://store.steampowered.com/app/2060160/The_Farmer_Was_Replaced/) where the user needs to automate a drone through code.
-It utilizes all 32 available drones and 2.5 pathfinding algorithms to finish the exercise in 4-6 minutes.
+It utilizes all 32 available drones and 2.5 pathfinding algorithms to finish the 300 mazes challenge in 4-6 minutes.
 
 ## What even is "The Farmer Was Replaced()"
 If you are too lazy to read the steam page or watch its trailer, here is a quick rundown.
