@@ -29,3 +29,5 @@ Now we stand before the problem, A* is slow when starting and Wall-Hug does not 
 For that we use Trémaux's Algorithm, an algorithm that is able to, without knowledge of a maze, to traverse it an guarantee to reach its end, or in this case, the treasure. I added bias to be more likely to move into the direction of the treasure, but apart from that it works just the same.
 
 The tactic is very simple, when the treasure is summoned to a new spot we spawn a Trémaux Worker Drone which starts running through the maze instantly. While that drone is running we try to find a direct path to the treasure using A* and only if the treasure hasn't changed it's location we spawn a Path Follow Worker Drone which traverses the maze very rapidly and probably reaches the goal faster than all the others.
+
+<img width="810" height="666" alt="Record" src="https://github.com/user-attachments/assets/4337ef78-fc90-4f4e-b2ef-9305baa90411" />
